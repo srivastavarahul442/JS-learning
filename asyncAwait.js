@@ -50,20 +50,26 @@
 
 //--------------how async and await works behind the scenes-----------
 
-const p = new Promise((resolve,reject)=>{
+const p1 = new Promise((resolve,reject)=>{
     setTimeout(()=>{
-        resolve("Promise resolved value")
+        resolve("Promise resolved value 1")
     },10000)
+})
+
+const p2 = new Promise((resolve,reject)=>{
+    setTimeout(()=>{
+        resolve("Promise resolved value 2")
+    },5000)
 })
 
 async function getData(){
     console.log("Nameste javaScript")
-    const val1 = await p;
-    console.log("Nameste javaScript")
+    const val1 = await p1;
+    console.log("Nameste javaScript 1")
     console.log(val1)
 
-    const val2 = await p;
-    console.log("Nameste javaScript")
+    const val2 = await p2;
+    console.log("Nameste javaScript 2")
     console.log(val2)
 }
 getData()
