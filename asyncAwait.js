@@ -53,13 +53,13 @@
 const p1 = new Promise((resolve,reject)=>{
     setTimeout(()=>{
         resolve("Promise resolved value 1")
-    },10000)
+    },5000)
 })
 
 const p2 = new Promise((resolve,reject)=>{
     setTimeout(()=>{
         resolve("Promise resolved value 2")
-    },5000)
+    },10000)
 })
 
 async function getData(){
