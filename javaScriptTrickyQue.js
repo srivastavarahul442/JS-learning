@@ -100,7 +100,8 @@ console.log(0.1 + 0.2 === 0.3); //JavaScript uses floating-point arithmetic (exp
 
 //--------------------------------------------------------------
 
-// const obj1 = { a: 1 };
-// const obj2 = { b: 2 };
-// const obj3 = { ...obj1, ...obj2, a: 10 };
-// console.log(obj3);
+const obj1 = { a: 1 };
+const obj2 = { b: 2 };
+const obj3 = { ...obj1, ...obj2, a: 10 };
+console.log(obj3);
+console.log(obj1);
