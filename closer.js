@@ -11,8 +11,9 @@
 //     return y();
 // }
 
-// const result = x();
-// console.log(result())
+const result = x();
+console.log(result())
+console.log(result())
 
 
 
