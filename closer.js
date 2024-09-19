@@ -14,6 +14,8 @@
 const result = x();
 console.log(result())
 console.log(result())
+console.log(result())
+console.log(result())
 
 
 
