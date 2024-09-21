@@ -124,3 +124,14 @@ console.log(0.1 + 0.2 === 0.3); //JavaScript uses floating-point arithmetic (exp
 // let y = (x+1,++x,x++,x+1)
 
 // console.log(y)
+
+
+//----------------------------------------------
+
+let variable1;
+let variable2 = variable1  || 'bar';
+console.log(variable2 === 'bar'); // prints true
+
+variable1 = 'foo';
+variable2 = variable1  || 'bar';
+console.log(variable2); // prints foo
