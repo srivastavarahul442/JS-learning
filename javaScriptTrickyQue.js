@@ -139,3 +139,11 @@ console.log(variable2); // prints foo
 variable1 = 'foo';
 variable2 = variable1  || 'bar';
 console.log(variable2); // prints foo
+
+variable1 = 'foo';
+variable2 = variable1  || 'bar';
+console.log(variable2); // prints foo
+
+variable1 = 'foo';
+variable2 = variable1  || 'bar';
+console.log(variable2); // prints foo
