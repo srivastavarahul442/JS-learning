@@ -132,25 +132,14 @@ let variable1;
 let variable2 = variable1  || 'bar';
 console.log(variable2 === 'bar'); // prints true
 
-variable1 = 'foo';
-variable2 = variable1  || 'bar';
-console.log(variable2); // prints foo
+function foo(a){
+    return a();
+}
 
-variable1 = 'foo';
-variable2 = variable1  || 'bar';
-console.log(variable2); // prints foo
+function hello(){
+    return "Rahul";
+}
 
-variable1 = 'foo';
-variable2 = variable1  || 'bar';
-console.log(variable2); // prints foo
+console.log(foo(hello))
 
-variable1 = 'foo';
-variable2 = variable1  || 'bar';
-console.log(variable2); // prints foo
-variable1 = 'foo';
-variable2 = variable1  || 'bar';
-console.log(variable2); // prints foo
 
-variable1 = 'foo';
-variable2 = variable1  || 'bar';
-console.log(variable2); // prints foo
