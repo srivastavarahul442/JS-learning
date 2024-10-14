@@ -128,18 +128,26 @@ console.log(0.1 + 0.2 === 0.3); //JavaScript uses floating-point arithmetic (exp
 
 //----------------------------------------------
 
-let variable1;
-let variable2 = variable1  || 'bar';
-console.log(variable2 === 'bar'); // prints true
+// let variable1;
+// let variable2 = variable1  || 'bar';
+// console.log(variable2 === 'bar'); // prints true
 
-function foo(a){
-    return a();
-}
+// function foo(a){
+//     return a();
+// }
 
-function hello(){
-    return "Rahul";
-}
+// function hello(){
+//     return "Rahul";
+// }
 
-console.log(foo(hello))
+// console.log(foo(hello))
+
+//-------------------------------------------------
+
+for (var i = 0; i < 3; i++) {
+    setTimeout(function() {
+      console.log(i);
+    }, 1000);
+  }
 
 
