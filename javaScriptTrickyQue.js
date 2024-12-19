@@ -149,5 +149,11 @@ for (var i = 0; i < 3; i++) {
       console.log(i);
     }, 1000);
   }
+  
+for (var i = 0; i < 3; i++) {
+  setTimeout(function() {
+    console.log(i);
+  }, 1000);
+}
 
 
